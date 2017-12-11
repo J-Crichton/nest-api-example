@@ -14,6 +14,23 @@
 		50AF461C1FDE7AAD0022F312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF461A1FDE7AAD0022F312 /* LaunchScreen.storyboard */; };
 		50AF46271FDE7AAD0022F312 /* Nest_API_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF46261FDE7AAD0022F312 /* Nest_API_ExampleTests.swift */; };
 		50AF46331FDE7C270022F312 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF46311FDE7C270022F312 /* Authorization.storyboard */; };
+		50AF46391FDE843E0022F312 /* SystemContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF46381FDE843E0022F312 /* SystemContext.swift */; };
+		50AF463B1FDE84940022F312 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF463A1FDE84940022F312 /* Router.swift */; };
+		50AF463D1FDE84FC0022F312 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF463C1FDE84FC0022F312 /* Routable.swift */; };
+		50AF46401FDE85C20022F312 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF463F1FDE85C20022F312 /* AuthViewController.swift */; };
+		50F19FB21FDE880C009BD8AF /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FB11FDE880C009BD8AF /* AuthViewModel.swift */; };
+		50F19FB41FDE8867009BD8AF /* ViewStateLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FB31FDE8867009BD8AF /* ViewStateLoadable.swift */; };
+		50F19FB61FDE8A56009BD8AF /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FB51FDE8A56009BD8AF /* RestClient.swift */; };
+		50F19FB81FDE8B9C009BD8AF /* TokenPersister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FB71FDE8B9C009BD8AF /* TokenPersister.swift */; };
+		50F19FBB1FDE8C13009BD8AF /* NestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FBA1FDE8C13009BD8AF /* NestAPI.swift */; };
+		50F19FBD1FDE8D66009BD8AF /* PINAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FBC1FDE8D66009BD8AF /* PINAuthRequest.swift */; };
+		50F19FC21FDE8EBF009BD8AF /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FC11FDE8EBF009BD8AF /* DevicesViewController.swift */; };
+		50F19FC41FDE8ECE009BD8AF /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FC31FDE8ECE009BD8AF /* DevicesViewModel.swift */; };
+		50F19FC71FDE8F5F009BD8AF /* NestDevicesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FC61FDE8F5F009BD8AF /* NestDevicesRequest.swift */; };
+		50F19FC91FDE903C009BD8AF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FC81FDE903C009BD8AF /* Models.swift */; };
+		50F19FCD1FDE9188009BD8AF /* ThermostatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FCC1FDE9188009BD8AF /* ThermostatViewModel.swift */; };
+		50F19FD01FDE91C6009BD8AF /* ThermostatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FCF1FDE91C5009BD8AF /* ThermostatViewController.swift */; };
+		50F19FD21FDE92FF009BD8AF /* PutDeviceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F19FD11FDE92FF009BD8AF /* PutDeviceRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +54,23 @@
 		50AF46261FDE7AAD0022F312 /* Nest_API_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest_API_ExampleTests.swift; sourceTree = "<group>"; };
 		50AF46281FDE7AAD0022F312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF46321FDE7C270022F312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
+		50AF46381FDE843E0022F312 /* SystemContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemContext.swift; sourceTree = "<group>"; };
+		50AF463A1FDE84940022F312 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		50AF463C1FDE84FC0022F312 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		50AF463F1FDE85C20022F312 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		50F19FB11FDE880C009BD8AF /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		50F19FB31FDE8867009BD8AF /* ViewStateLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateLoadable.swift; sourceTree = "<group>"; };
+		50F19FB51FDE8A56009BD8AF /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		50F19FB71FDE8B9C009BD8AF /* TokenPersister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenPersister.swift; sourceTree = "<group>"; };
+		50F19FBA1FDE8C13009BD8AF /* NestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestAPI.swift; sourceTree = "<group>"; };
+		50F19FBC1FDE8D66009BD8AF /* PINAuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINAuthRequest.swift; sourceTree = "<group>"; };
+		50F19FC11FDE8EBF009BD8AF /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		50F19FC31FDE8ECE009BD8AF /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		50F19FC61FDE8F5F009BD8AF /* NestDevicesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestDevicesRequest.swift; sourceTree = "<group>"; };
+		50F19FC81FDE903C009BD8AF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		50F19FCC1FDE9188009BD8AF /* ThermostatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatViewModel.swift; sourceTree = "<group>"; };
+		50F19FCF1FDE91C5009BD8AF /* ThermostatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatViewController.swift; sourceTree = "<group>"; };
+		50F19FD11FDE92FF009BD8AF /* PutDeviceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutDeviceRequest.swift; sourceTree = "<group>"; };
 		89C4B36DA44A8D53A110738F /* Pods-Nest API Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nest API Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nest API Example/Pods-Nest API Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1145760F2709E6E851E69E5 /* Pods_Nest_API_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nest_API_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1C3BE7121DAF550FEC4136 /* Pods-Nest API Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nest API Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nest API Example/Pods-Nest API Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				50AF46111FDE7AAD0022F312 /* AppDelegate.swift */,
+				50AF46371FDE7E820022F312 /* System */,
 				50AF46361FDE7CA50022F312 /* UI */,
 				50AF46341FDE7C930022F312 /* Resources */,
 				50AF461D1FDE7AAD0022F312 /* Info.plist */,
@@ -132,8 +167,80 @@
 			isa = PBXGroup;
 			children = (
 				50AF46351FDE7C9B0022F312 /* Storyboards */,
+				50F19FC01FDE8EAD009BD8AF /* DeviceList */,
+				50F19FCE1FDE91A1009BD8AF /* DeviceDetails */,
+				50AF46411FDE85CC0022F312 /* Authorization */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		50AF46371FDE7E820022F312 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				50AF46381FDE843E0022F312 /* SystemContext.swift */,
+				50F19FB91FDE8C06009BD8AF /* RestClient */,
+				50F19FB31FDE8867009BD8AF /* ViewStateLoadable.swift */,
+				50F19FBA1FDE8C13009BD8AF /* NestAPI.swift */,
+				50AF463E1FDE85950022F312 /* Routing */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		50AF463E1FDE85950022F312 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				50AF463A1FDE84940022F312 /* Router.swift */,
+				50AF463C1FDE84FC0022F312 /* Routable.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		50AF46411FDE85CC0022F312 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				50AF463F1FDE85C20022F312 /* AuthViewController.swift */,
+				50F19FB11FDE880C009BD8AF /* AuthViewModel.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		50F19FB91FDE8C06009BD8AF /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				50F19FB51FDE8A56009BD8AF /* RestClient.swift */,
+				50F19FB71FDE8B9C009BD8AF /* TokenPersister.swift */,
+				50F19FC81FDE903C009BD8AF /* Models.swift */,
+				50F19FC51FDE8F46009BD8AF /* Requests */,
+			);
+			path = RestClient;
+			sourceTree = "<group>";
+		};
+		50F19FC01FDE8EAD009BD8AF /* DeviceList */ = {
+			isa = PBXGroup;
+			children = (
+				50F19FC11FDE8EBF009BD8AF /* DevicesViewController.swift */,
+				50F19FC31FDE8ECE009BD8AF /* DevicesViewModel.swift */,
+			);
+			path = DeviceList;
+			sourceTree = "<group>";
+		};
+		50F19FC51FDE8F46009BD8AF /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				50F19FBC1FDE8D66009BD8AF /* PINAuthRequest.swift */,
+				50F19FC61FDE8F5F009BD8AF /* NestDevicesRequest.swift */,
+				50F19FD11FDE92FF009BD8AF /* PutDeviceRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		50F19FCE1FDE91A1009BD8AF /* DeviceDetails */ = {
+			isa = PBXGroup;
+			children = (
+				50F19FCC1FDE9188009BD8AF /* ThermostatViewModel.swift */,
+				50F19FCF1FDE91C5009BD8AF /* ThermostatViewController.swift */,
+			);
+			path = DeviceDetails;
 			sourceTree = "<group>";
 		};
 		6C64416B0D7B41AF613EB7B3 /* Frameworks */ = {
@@ -309,7 +416,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F19FC41FDE8ECE009BD8AF /* DevicesViewModel.swift in Sources */,
+				50F19FC71FDE8F5F009BD8AF /* NestDevicesRequest.swift in Sources */,
+				50F19FB61FDE8A56009BD8AF /* RestClient.swift in Sources */,
+				50F19FBD1FDE8D66009BD8AF /* PINAuthRequest.swift in Sources */,
+				50AF46391FDE843E0022F312 /* SystemContext.swift in Sources */,
+				50F19FB41FDE8867009BD8AF /* ViewStateLoadable.swift in Sources */,
+				50F19FC21FDE8EBF009BD8AF /* DevicesViewController.swift in Sources */,
+				50F19FD21FDE92FF009BD8AF /* PutDeviceRequest.swift in Sources */,
+				50AF463B1FDE84940022F312 /* Router.swift in Sources */,
+				50F19FB21FDE880C009BD8AF /* AuthViewModel.swift in Sources */,
+				50F19FC91FDE903C009BD8AF /* Models.swift in Sources */,
 				50AF46121FDE7AAD0022F312 /* AppDelegate.swift in Sources */,
+				50F19FBB1FDE8C13009BD8AF /* NestAPI.swift in Sources */,
+				50AF463D1FDE84FC0022F312 /* Routable.swift in Sources */,
+				50F19FB81FDE8B9C009BD8AF /* TokenPersister.swift in Sources */,
+				50AF46401FDE85C20022F312 /* AuthViewController.swift in Sources */,
+				50F19FD01FDE91C6009BD8AF /* ThermostatViewController.swift in Sources */,
+				50F19FCD1FDE9188009BD8AF /* ThermostatViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

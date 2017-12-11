@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Auth View Controller-->
+        <!--Authorization View Controller-->
         <scene sceneID="Jf5-6s-OQx">
             <objects>
-                <viewController id="fBR-Ur-j3l" customClass="AuthViewController" customModule="Nest_API_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Authorization" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fBR-Ur-j3l" customClass="AuthorizationViewController" customModule="Nest_API_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J8z-gd-22O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,9 +27,6 @@
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2Y-cl-EDH">
                                 <rect key="frame" x="0.0" y="69" width="375" height="598"/>
                                 <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <outlet property="delegate" destination="J8z-gd-22O" id="Une-hl-SPF"/>
-                                </connections>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -46,8 +43,8 @@
                         <viewLayoutGuide key="safeArea" id="92Q-od-8yb"/>
                     </view>
                     <connections>
-                        <outlet property="progressLabel" destination="5ft-RS-Jd2" id="dyH-JR-no3"/>
-                        <outlet property="webView" destination="U2Y-cl-EDH" id="gmX-PG-mzA"/>
+                        <outlet property="progressLabel" destination="5ft-RS-Jd2" id="2Zv-Kc-A8K"/>
+                        <outlet property="webView" destination="U2Y-cl-EDH" id="T2s-1p-1rf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="imB-fe-v8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
