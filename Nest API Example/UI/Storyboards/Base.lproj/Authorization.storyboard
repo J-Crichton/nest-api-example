@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fBR-Ur-j3l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auth View Controller-->
+        <scene sceneID="Jf5-6s-OQx">
+            <objects>
+                <viewController id="fBR-Ur-j3l" customClass="AuthViewController" customModule="Nest_API_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J8z-gd-22O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authorizing" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ft-RS-Jd2">
+                                <rect key="frame" x="128.5" y="30" width="118.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2Y-cl-EDH">
+                                <rect key="frame" x="0.0" y="69" width="375" height="598"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="J8z-gd-22O" id="Une-hl-SPF"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U2Y-cl-EDH" firstAttribute="top" secondItem="5ft-RS-Jd2" secondAttribute="bottom" constant="10" id="6qa-di-z56"/>
+                            <constraint firstItem="5ft-RS-Jd2" firstAttribute="top" secondItem="92Q-od-8yb" secondAttribute="top" constant="10" id="8u5-JC-lBf"/>
+                            <constraint firstItem="92Q-od-8yb" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5ft-RS-Jd2" secondAttribute="trailing" id="JhN-5d-URq"/>
+                            <constraint firstItem="92Q-od-8yb" firstAttribute="bottom" secondItem="U2Y-cl-EDH" secondAttribute="bottom" id="OA6-O8-2Gn"/>
+                            <constraint firstItem="92Q-od-8yb" firstAttribute="trailing" secondItem="U2Y-cl-EDH" secondAttribute="trailing" id="UF0-jk-QnA"/>
+                            <constraint firstItem="U2Y-cl-EDH" firstAttribute="leading" secondItem="92Q-od-8yb" secondAttribute="leading" id="XHl-HK-eZ1"/>
+                            <constraint firstItem="5ft-RS-Jd2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="92Q-od-8yb" secondAttribute="leading" id="ggm-il-QZY"/>
+                            <constraint firstItem="5ft-RS-Jd2" firstAttribute="centerX" secondItem="J8z-gd-22O" secondAttribute="centerX" id="xV3-ds-Flo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="92Q-od-8yb"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressLabel" destination="5ft-RS-Jd2" id="dyH-JR-no3"/>
+                        <outlet property="webView" destination="U2Y-cl-EDH" id="gmX-PG-mzA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="imB-fe-v8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-847.20000000000005" y="250.52473763118442"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,19 @@
+PODS:
+  - Flamingo (1.0.2)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+
+DEPENDENCIES:
+  - Flamingo
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+
+SPEC CHECKSUMS:
+  Flamingo: 78f46852e898aef2ebb1790a9f39deee94677de0
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+
+PODFILE CHECKSUM: fd23bb8d0403d7d89f762a19cbb709d6cb02aa59
+
+COCOAPODS: 1.3.1
